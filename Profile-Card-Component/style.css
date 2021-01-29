@@ -1,0 +1,11 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.profile-card {
+    background: hsl(229, 23%, 23%);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
