@@ -2,12 +2,24 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 
+.container {
+    position: absolute;
+    z-index: -1;
+}
+
 .profile-card {
-    background: hsl(229, 23%, 23%);
+    /* background: hsl(229, 23%, 23%); */
+    background-color: white;
     display: flex;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    margin: 50px 50px;
+    margin: auto;
     flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    z-index: -1;
+}
+.upper{
+    height: fit-content;
 }
