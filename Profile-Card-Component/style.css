@@ -3,23 +3,50 @@ body {
 }
 
 .container {
-    position: absolute;
-    z-index: -1;
+    /* position: absolute; */
+    /* z-index: -1; */
 }
 
 .profile-card {
     /* background: hsl(229, 23%, 23%); */
+    position: relative;
     background-color: white;
     display: flex;
-    min-height: 100vh;
-    justify-content: center;
+    height: 100vh;
+    width: 300px;
+    /* justify-content: center; */
     align-items: center;
+    text-align: center;
     margin: auto;
     flex-direction: column;
     width: fit-content;
     height: fit-content;
-    z-index: -1;
+    
 }
-.upper{
+
+.upper {
     height: fit-content;
+    position: relative;
+}
+
+.img img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    left: 20px;
+    top: 10%;
+    transform: translate(100%, 50%);
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 80vh;
 }
