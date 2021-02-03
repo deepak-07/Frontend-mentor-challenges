@@ -79,10 +79,12 @@ hr {
     text-align: center;
     align-items: center;
     height: 1px;
+
+
 }
 
 .object-table {
-    margin-top: -20px;
+    margin-top: -10px;
     border-spacing: 15px 20px;
     justify-content: space-between;
 }
