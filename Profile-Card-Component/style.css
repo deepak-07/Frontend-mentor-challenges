@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .container {
@@ -26,7 +27,6 @@ body {
 }
 
 .profile-card {
-    
     background-color: white;
     display: flex;
     height: 60px;
@@ -78,7 +78,6 @@ hr {
     background-color: #D3D3D3;
     text-align: center;
     align-items: center;
-
     height: 1px;
 }
 
@@ -89,7 +88,6 @@ hr {
 }
 
 .name {
-
     font-weight: bolder;
     padding: 8px 1px;
 }
@@ -118,5 +116,6 @@ hr {
 .attribution {
     position: absolute;
     bottom: 0px;
-    margin-left: 90vh;
+    margin-left: 85vh;
+    margin-bottom: 3px;
 }
