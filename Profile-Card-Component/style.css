@@ -1,52 +1,122 @@
 body {
+    margin: 0;
     background-color: hsl(185, 75%, 39%);
 }
 
 .container {
+    margin: 0;
     /* position: absolute; */
     /* z-index: -1; */
 }
 
+.upper {
+    background-image: url(/images/bg-pattern-top.svg);
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: top -450px left -400px;
+    z-index: -1;
+}
+
+.color-gray {
+    display: inline;
+    color: hsl(0, 0%, 59%);
+    padding-left: 1px;
+}
+
 .profile-card {
-    /* background: hsl(229, 23%, 23%); */
-    position: relative;
+    
     background-color: white;
     display: flex;
-    height: 100vh;
-    width: 300px;
-    /* justify-content: center; */
+    height: 60px;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: auto;
     flex-direction: column;
     width: fit-content;
     height: fit-content;
-    
+    border-radius: 30px;
 }
 
-.upper {
+.top img {
     height: fit-content;
-    position: relative;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .img img {
     border-radius: 50%;
     border: 5px solid white;
-    position: absolute;
-    left: 20px;
-    top: 10%;
-    transform: translate(100%, 50%);
+    position: relative;
+    left: 5px;
+    top: 5px;
+    transform: translate(-10px, -50px);
+    margin-bottom: -35px;
 }
-.lower{
+
+.details {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
+hr {
+    display: inline-block;
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: center;
+    align-items: center;
 
-.attribution{
+    height: 1px;
+}
+
+.object-table {
+    margin-top: -20px;
+    border-spacing: 15px 20px;
+    justify-content: space-between;
+}
+
+.name {
+
+    font-weight: bolder;
+    padding: 8px 1px;
+}
+
+.number {
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.count {
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.lower {
+    background-image: url(/images/bg-pattern-bottom.svg);
+    position: absolute;
+    width: 1500px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: top 400px left 620px;
+    z-index: -1;
+}
+
+.attribution {
     position: absolute;
     bottom: 0px;
-    margin-left: 80vh;
+    margin-left: 90vh;
 }
