@@ -2,12 +2,14 @@ body {
     margin: 0;
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
 }
 
 .container {
     margin: 0;
     /* position: absolute; */
     /* z-index: -1; */
+    
 }
 
 .upper {
@@ -44,6 +46,7 @@ body {
     width: fit-content;
     height: fit-content;
     border-radius: 30px;
+    
 }
 
 .top img {
@@ -106,10 +109,11 @@ hr {
 }
 
 .lower {
+    display: flex;
     background-image: url(/images/bg-pattern-bottom.svg);
     position: absolute;
     width: 1500px;
-    height: 1000px;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: top 400px left 620px;
     z-index: -1;
