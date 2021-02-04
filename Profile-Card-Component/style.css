@@ -124,8 +124,7 @@ hr {
 }
 
 .attribution {
-    position: absolute;
-    bottom: 0px;
-    margin-left: 85vh;
-    margin-bottom: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
